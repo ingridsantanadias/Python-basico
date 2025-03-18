@@ -1,0 +1,10 @@
+import math
+#Esse código serve para calcular o dobro,triplo e a raíz de um número
+#Recebe um valor numérico do usuário
+numero= float(input("Informe  um número:"))
+#Calcula o dobro,triplo e a raíz do número
+dobro=numero*2
+triplo=numero*3
+raiz= math.sqrt(numero)
+#Exibe os resultados
+print(f"O dobro de {numero} é {dobro}, o triplo é {triplo} e a raíz quadrada é {raiz}")
