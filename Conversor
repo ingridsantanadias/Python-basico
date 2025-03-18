@@ -1,0 +1,9 @@
+#Esse código recebe um valor em metros pelo usuário e o converte  em outras grandezas
+metros=float(input("Digite o valor em metros:"))
+#Calcula e converte o valor em metros para outras grandezas
+milimetros=metros*1000
+centimetros=metros*100
+quilometros=metros/1000
+hectometros=metros/100
+decametros=metros/10
+decimetros=metros*10
