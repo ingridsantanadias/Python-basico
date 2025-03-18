@@ -1,0 +1,6 @@
+#Digitar um valoe decimal,mostar na tela e extrair a parte inteira na tela
+import math
+valor_Decimal = float (input("Digite um valor decimal:"))
+print("O valor digitado é :", valor_Decimal )
+valor_inteiro = int(valor_Decimal)
+print( " O valor inteiro é :", valor_inteiro)
