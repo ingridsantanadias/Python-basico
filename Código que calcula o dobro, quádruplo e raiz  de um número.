@@ -1,0 +1,7 @@
+#Criar um programa  que calcule o dobro, quadruplo e raíz quadrada de um numero
+import math
+numero=float(input("Digite um número:"))
+dobro=numero*2
+quadruplo=numero*4
+raiz=math.sqrt(numero)
+print(f"O dobro de {numero} é {dobro}, o quadruplo é {quadruplo}, e a raíz quadrada é {raiz}")
