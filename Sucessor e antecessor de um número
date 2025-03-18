@@ -1,0 +1,7 @@
+#Esse código calcula o sucessor e antecessor de um número
+numero=int(input("Informe um número:"))
+#Calcula o sucessor e antecessor do número
+sucessor=numero+1
+antecessor=numero-1
+#Exibe os resultados
+print(f"O sucessor de {numero} é {sucessor}, e o antecessor é {antecessor}")
