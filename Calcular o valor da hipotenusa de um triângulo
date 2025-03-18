@@ -1,0 +1,11 @@
+import math
+
+valor_catop = float(input("Informe o valor do cateto oposto:")) 
+valor_catad = float(input("Informe  o valor do cateto adjacente:"))
+
+oposto = valor_catop**2
+adjacente = valor_catad**2
+
+valor_hipotenusa = oposto + adjacente
+
+print(" O valor da Hipotenusa é:", math.sqrt( valor_hipotenusa) )
