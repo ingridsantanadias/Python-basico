@@ -1,0 +1,13 @@
+#Calcular média aritmética 
+import math
+#Comandos que peçam o valor numerico para calcular a média
+valor1=float(input("Digite o primeiro valor:"))
+valor2=float(input("Digite o segundo valor:"))  
+valor3=float(input("Digite o terceiro valor:"))
+valor4=float(input("Digite o quarto valor:"))
+valor5=float(input("Digite o quinto valor:"))
+#Comando que calcule a média aritmética e que também mostre o valor da soma dos valores
+soma=valor1+valor2+valor3+valor4+valor5
+media=(valor1+valor2+valor3+valor4+valor5)/5
+#Comando que exiba o resultado
+print("A  soma dos valores e a média aritmética dos valores são:", soma, media)
