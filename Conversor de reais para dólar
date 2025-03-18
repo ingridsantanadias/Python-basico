@@ -1,0 +1,10 @@
+#Esse código serve para converter reais em dólares
+#Recebe o valor em reais do usuário
+reais= float(input("Digite o valor em reais:"))
+#Taxa de câmbio (1 dólar em reais)
+taxa_dolar_real= 5.25
+#Calcula o valor de reais em dólar
+dolar= reais / taxa_dolar_real
+#Exibe os resultados
+print(f"Você digitou R$ {reais:.2f} ")
+print(f"O valor em dólar é US$ {dolar:.2f}")
