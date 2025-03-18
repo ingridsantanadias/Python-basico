@@ -1,0 +1,10 @@
+import math
+#Esse código serve para calcular a quantidade de tinta em litros para pintar uma parede
+larguraParede= float(input("Digite a largura da parede:"))
+alturaParede= float(input("Digite a altura da parede:"))
+#Para saber a area da parede a ser pintada, multiplicar a largura pela altura
+areaParede= larguraParede * alturaParede
+print("A area da parede é:", areaParede)
+#Tendo-se a noção de que para cada 2m² de parede, utiliza-se 1 litro de tinta para pintar
+litrosTinta= areaParede / 2
+print("A quantidade de litros de tinta necessários para pintar a parede é", litrosTinta)
